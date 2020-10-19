@@ -1,0 +1,361 @@
+
+.trulia-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #20c063;
+    color: white;
+    padding: 4px;
+    font-family: 'Lato', Helvetica, sans-serif;
+}
+
+.trulia-logo {
+    height:50px;
+    width:50px;
+    margin: 4px;
+}
+
+.letter-initial {
+  border-radius: 50%;
+  border: solid 2px white;
+  padding: 12px 15px;
+  margin: 5px;
+}
+
+.nav-items-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-items-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-items-info {
+    margin: 25px;
+    font-size:15px;
+    line-height: 10px;
+}
+
+.a-nav-top {
+  color: white;
+  text-decoration: none;
+}
+
+.modal-mask {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+}
+
+.modal {
+  background-color: white;
+  position: fixed;
+  bottom: 50px;
+  height: 200px;
+  max-width: 600px;
+  color: black;
+  border: 5px solid #20c063;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.modal-text {
+  padding: 10px;
+  margin-top: 50px;
+  margin-left: 10px;
+  font-family: 'Lato', Helvetica, sans-serif;
+
+}
+
+.modal-button {
+  background-color: #20c063;
+  color: white;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  font-family: 'Lato', Helvetica, sans-serif;
+  border: none;
+}
+
+.site-main-header {
+    padding: 15px;
+    font-family: 'Lato', Helvetica, sans-serif;
+    background-color: white;
+}
+
+.site-main-header-h1 {
+    font-size: 20px;
+}
+
+.bottom-container-1 {   
+    display:flex;
+    justify-content: center;    
+    justify-content: space-evenly;  
+    color: white; 
+    flex-direction: row;
+    background-color: #e8e9ea;
+    height: 350px;
+    font-family: 'Lato', Helvetica, sans-serif;
+  }
+
+
+  .bottom-container-box1 {        
+    margin: 1%;
+    width: 30%; 
+    text-align: center; 
+    display: block;  
+  }
+
+  .house-tile-image-1 {
+    background-image: url(../images/house-1.jpg); 
+    background-image:cover;
+    background-blend-mode: overlay;
+    background-position: center;
+    height: 160px;
+    width: 100%;
+}
+
+.icon-1 {
+    height:20px;
+    width:20px;
+}
+
+.icon-2 {
+    height:20px;
+    width:20px;
+}
+
+
+  .bottom-container-box2 {   
+    margin: 1%;
+    width: 30%; 
+    text-align: center;
+    display: block;
+  }
+
+  .house-tile-image-2 {
+    background-image: url(../images/house-2.jpg); 
+    background-image:cover;
+    background-blend-mode: overlay; 
+    background-position: center;
+    height: 160px;
+    width: 100%;
+}
+
+  .bottom-container-box3 {  
+    height: 100px;  
+    width: 100%;  
+    margin: 1%;
+    width: 30%; 
+    text-align: center;
+    display: block;
+  }
+
+  .house-tile-image-3 {
+    background-image: url(../images/house-3.jpg); 
+    background-image:cover;
+    background-blend-mode: overlay; 
+    background-position: center;
+    height: 160px;
+    width: 100%;
+}
+
+  .bottom-container-overflow-text {
+    background-color: white;
+    color: black;
+    border: 1px solid #dbdbdb;
+    height: 150px;
+    line-height: 1.5px;
+  }
+
+  .bottom-container-details {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      justify-content: space-evenly;
+      line-height: 1.5px;
+
+  }
+
+  .bottom-container-2 {   
+    display:flex;
+    justify-content: center;    
+    justify-content: space-evenly;  
+    color: white; 
+    flex-direction: row;
+    background-color: #e8e9ea;
+    height: 350px;
+    font-family: 'Lato', Helvetica, sans-serif;
+    padding: none;
+  }
+
+  .bottom-container-box4 {        
+    margin: 1%;
+    width: 30%; 
+    text-align: center; 
+    display: block;  
+  }
+
+  .bottom-container-box5 {        
+    margin: 1%;
+    width: 30%; 
+    text-align: center; 
+    display: block;  
+  }
+
+  .bottom-container-box6 {        
+    margin: 1%;
+    width: 30%; 
+    text-align: center; 
+    display: block;  
+  }
+
+  .house-tile-image-4 {
+    background-image: url(../images/house-4.jpg); 
+    background-image:cover;
+    background-blend-mode: overlay;
+    background-position: center;
+    height: 160px;
+    width: 100%;
+}
+
+.house-tile-image-5 {
+  background-image: url(../images/house-5.jpg); 
+  background-image:cover;
+  background-blend-mode: overlay;
+  background-position: center;
+  height: 160px;
+  width: 100%;
+}
+
+.house-tile-image-6 {
+  background-image: url(../images/house-6.jpg); 
+  background-image:cover;
+  background-blend-mode: overlay;
+  background-position: center;
+  height: 160px;
+  width: 100%;
+}
+
+.bottom-container-3 {   
+  display:flex;
+  justify-content: center;    
+  justify-content: space-evenly;  
+  color: white; 
+  flex-direction: row;
+  background-color: #e8e9ea;
+  height: 350px;
+  font-family: 'Lato', Helvetica, sans-serif;
+}
+
+
+.bottom-container-box7 {        
+  margin: 1%;
+  width: 30%; 
+  text-align: center; 
+  display: block;  
+}
+
+.house-tile-image-7 {
+  background-image: url(../images/house-7.jpg); 
+  background-image:cover;
+  background-blend-mode: overlay;
+  background-position: center;
+  height: 160px;
+  width: 100%;
+}
+
+.bottom-container-box8 {        
+  margin: 1%;
+  width: 30%; 
+  text-align: center; 
+  display: block;  
+}
+
+.house-tile-image-8 {
+  background-image: url(../images/house-8.jpg); 
+  background-image:cover;
+  background-blend-mode: overlay;
+  background-position: center;
+  height: 160px;
+  width: 100%;
+}
+
+.bottom-container-box9 {        
+  margin: 1%;
+  width: 30%; 
+  text-align: center; 
+  display: block;  
+}
+
+.house-tile-image-9 {
+  background-image: url(../images/house-10.jpg); 
+  background-image:cover;
+  background-blend-mode: overlay;
+  background-position: center;
+  height: 160px;
+  width: 100%;
+}
+
+.results-container {
+  display:block;
+  font-family: 'Lato', Helvetica, sans-serif;
+}
+
+.numbers-row {
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.places-row {
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
+.results-p {
+  text-align: center;
+}
+
+.numbers-row-p {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+a {
+  color:#20c063;
+
+}
+
+.insights-container {
+  font-family: 'Lato', Helvetica, sans-serif;
+  padding: 10px;
+}
+
+.footer-nav {
+  background-color: #474E52;
+  color: #b1b6bb;
+  padding: 20px;
+  font-family: 'Lato', Helvetica, sans-serif;
+  display: block;
+}
+
+.footer-nav-items {
+  display:flex;
+  flex-direction: row;
+
+}
+
+.footer-row-p {
+  margin-right: 10px;
+}
